@@ -35,6 +35,14 @@ rest stock.
 | Track | Config | Folder | What's ours | Updated |
 |---|---|---|---|---|
 | Autódromo Hermanos Rodríguez (Mexico City) | Grand Prix Historic | `mexicocity/gphistoric` | GOW TV (18 cameras, with gophers at 1338, 2040 and 2695 m and a wall cam at the Peraltada turn-in), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-08 |
+| Autódromo José Carlos Pace (Interlagos) | Grand Prix | `interlagos/gp` | GOW TV (18 cameras, with gophers at 495 m, at the bottom of the drop from turn 1, and 3045 m, at the bottom of Mergulho, and wall cams at Descida do Lago and the Bico de Pato approach), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-12 |
+
+Interlagos:
+
+| | | |
+|---|---|---|
+| ![GOW TV](previews/interlagos/gow-tv.jpg) GOW TV | ![Gopher cam, turn 2](previews/interlagos/gopher-turn2.jpg) Gopher cam at the bottom of the turn 1 drop | ![Gopher cam, turn 2](previews/interlagos/gopher-turn2-over.jpg) ...and the car goes over it |
+| ![Gopher cam, Mergulho](previews/interlagos/gopher-mergulho.jpg) Gopher cam at the bottom of Mergulho | ![Wall cam, Bico de Pato](previews/interlagos/wall-cam-bico-de-pato.jpg) Wall cam on the Bico de Pato approach | ![Wall cam, Descida do Lago](previews/interlagos/wall-cam-descida-do-lago.jpg) Wall cam at the Descida do Lago apex |
 
 ## Cars
 
@@ -81,4 +89,5 @@ Formula Lights, with every round broadcast live. We're recruiting:
 
 ## Changelog
 
+- **2026-10-12**: Interlagos (Grand Prix).
 - **2026-10-08**: Mexico City (Grand Prix Historic) and the Super Formula Lights car file.
