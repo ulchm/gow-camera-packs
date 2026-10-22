@@ -36,6 +36,7 @@ rest stock.
 |---|---|---|---|---|
 | Autódromo Hermanos Rodríguez (Mexico City) | Grand Prix Historic | `mexicocity/gphistoric` | GOW TV (18 cameras, with gophers at 1338, 2040 and 2695 m and a wall cam at the Peraltada turn-in), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-08 |
 | Autódromo José Carlos Pace (Interlagos) | Grand Prix | `interlagos/gp` | GOW TV (18 cameras, with gophers at 495 m, at the bottom of the drop from turn 1, and 3045 m, at the bottom of Mergulho, and wall cams at Descida do Lago and the Bico de Pato approach), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-12 |
+| Miami International Autodrome | Grand Prix | `miami/gp` | GOW TV (25 cameras: 21 trackside, gophers at 1000 m, on the run to the esses, and in the turn 11 braking zone, and wall cams on the turn 1 and turn 17 approaches, where the cars brake within a metre or two of the barrier), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-22 |
 
 Interlagos:
 
@@ -43,6 +44,13 @@ Interlagos:
 |---|---|---|
 | ![GOW TV](previews/interlagos/gow-tv.jpg) GOW TV | ![Gopher cam, turn 2](previews/interlagos/gopher-turn2.jpg) Gopher cam at the bottom of the turn 1 drop | ![Gopher cam, turn 2](previews/interlagos/gopher-turn2-over.jpg) ...and the car goes over it |
 | ![Gopher cam, Mergulho](previews/interlagos/gopher-mergulho.jpg) Gopher cam at the bottom of Mergulho | ![Wall cam, Bico de Pato](previews/interlagos/wall-cam-bico-de-pato.jpg) Wall cam on the Bico de Pato approach | ![Wall cam, Descida do Lago](previews/interlagos/wall-cam-descida-do-lago.jpg) Wall cam at the Descida do Lago apex |
+
+Miami:
+
+| | | |
+|---|---|---|
+| ![GOW TV](previews/miami/gow-tv.jpg) GOW TV | ![Gopher cam, 1000 m](previews/miami/gopher-1000.jpg) Gopher cam on the run to the esses | ![Gopher cam, turn 11](previews/miami/gopher-turn11.jpg) Gopher cam in the turn 11 braking zone |
+| ![Wall cam, turn 1](previews/miami/wall-cam-turn1.jpg) Wall cam on the turn 1 approach | ![Wall cam, turn 17](previews/miami/wall-cam-turn17.jpg) Wall cam on the turn 17 approach | |
 
 ## Cars
 
@@ -89,5 +97,6 @@ Formula Lights, with every round broadcast live. We're recruiting:
 
 ## Changelog
 
+- **2026-10-22**: Miami (Grand Prix).
 - **2026-10-12**: Interlagos (Grand Prix).
 - **2026-10-08**: Mexico City (Grand Prix Historic) and the Super Formula Lights car file.
