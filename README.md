@@ -38,6 +38,7 @@ rest stock.
 | Autódromo José Carlos Pace (Interlagos) | Grand Prix | `interlagos/gp` | GOW TV (18 cameras, with gophers at 495 m, at the bottom of the drop from turn 1, and 3045 m, at the bottom of Mergulho, and wall cams at Descida do Lago and the Bico de Pato approach), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-12 |
 | Miami International Autodrome | Grand Prix | `miami/gp` | GOW TV (25 cameras: 21 trackside, gophers at 1000 m, on the run to the esses, and in the turn 11 braking zone, and wall cams on the turn 1 and turn 17 approaches, where the cars brake within a metre or two of the barrier), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-22 |
 | Autodromo Enzo e Dino Ferrari (Imola) | Grand Prix | `imola/gp` | GOW TV (22 cameras: 18 trackside and four gophers: in the Tamburello inside kerb, at the bottom of the drop into Acque Minerali, in the Acque Minerali exit kerb and in the Rivazza braking zone at the foot of the hill; no wall cam, as Imola's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-26 |
+| Circuit of the Americas | Grand Prix | `cota/gp` | GOW TV (30 cameras: 26 trackside and four gophers: in the turn 1 inside kerb at the top of the hill, in the turn 9 exit kerb, and in the turn 12 and turn 20 braking zones; no wall cam, as COTA's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-02 |
 
 Interlagos:
 
@@ -59,6 +60,13 @@ Imola:
 |---|---|---|
 | ![GOW TV](previews/imola/gow-tv.jpg) GOW TV | ![Gopher cam, Tamburello](previews/imola/gopher-tamburello.jpg) Gopher cam in the Tamburello inside kerb | ![Gopher cam, Acque Minerali](previews/imola/gopher-acque-minerali.jpg) Gopher cam at the bottom of the drop into Acque Minerali |
 | ![Gopher cam, Acque Minerali exit](previews/imola/gopher-acque-minerali-exit.jpg) Gopher cam in the Acque Minerali exit kerb | ![Gopher cam, Acque Minerali exit](previews/imola/gopher-acque-minerali-exit-over.jpg) ...and the car goes over it | ![Gopher cam, Rivazza](previews/imola/gopher-rivazza.jpg) Gopher cam in the Rivazza braking zone |
+
+COTA:
+
+| | | |
+|---|---|---|
+| ![GOW TV](previews/cota/gow-tv.jpg) GOW TV | ![Gopher cam, turn 1](previews/cota/gopher-turn1.jpg) Gopher cam in the turn 1 inside kerb | ![Gopher cam, turn 1](previews/cota/gopher-turn1-past.jpg) ...as the car sweeps past it |
+| ![Gopher cam, turn 9](previews/cota/gopher-turn9.jpg) Gopher cam in the turn 9 exit kerb | ![Gopher cam, turn 12](previews/cota/gopher-turn12.jpg) Gopher cam in the turn 12 braking zone | ![Gopher cam, turn 20](previews/cota/gopher-turn20.jpg) Gopher cam in the turn 20 braking zone |
 
 ## Cars
 
@@ -105,6 +113,7 @@ Formula Lights, with every round broadcast live. We're recruiting:
 
 ## Changelog
 
+- **2026-11-02**: Circuit of the Americas (Grand Prix).
 - **2026-10-26**: Imola (Grand Prix).
 - **2026-10-22**: Miami (Grand Prix).
 - **2026-10-12**: Interlagos (Grand Prix).
