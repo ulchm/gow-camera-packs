@@ -13,8 +13,8 @@ them, put them on air; just credit GOW.
 
 ## What's in a pack
 
-**Track files** (`cameras/tracks/<track>/<config>/gow.cam`) hold iRacing's own cameras,
-untouched, plus our groups:
+**Track files** (`cameras/tracks/<track>/<config>/gow.cam`, or `cameras/tracks/<track>/gow.cam`
+for a track with one layout) hold iRacing's own cameras, untouched, plus our groups:
 
 - **GOW TV**: our own trackside set. Tracking cameras placed from a driver's real laps,
   every position checked from replays so no tree, fence or grandstand gets between the
@@ -39,6 +39,7 @@ rest stock.
 | Miami International Autodrome | Grand Prix | `miami/gp` | GOW TV (25 cameras: 21 trackside, gophers at 1000 m, on the run to the esses, and in the turn 11 braking zone, and wall cams on the turn 1 and turn 17 approaches, where the cars brake within a metre or two of the barrier), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-22 |
 | Autodromo Enzo e Dino Ferrari (Imola) | Grand Prix | `imola/gp` | GOW TV (22 cameras: 18 trackside and four gophers: in the Tamburello inside kerb, at the bottom of the drop into Acque Minerali, in the Acque Minerali exit kerb and in the Rivazza braking zone at the foot of the hill; no wall cam, as Imola's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-26 |
 | Circuit of the Americas | Grand Prix | `cota/gp` | GOW TV (30 cameras: 26 trackside and four gophers: in the turn 1 inside kerb at the top of the hill, in the turn 9 exit kerb, and in the turn 12 and turn 20 braking zones; no wall cam, as COTA's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-02 |
+| Mount Panorama Circuit (Bathurst) | One layout | `bathurst` | GOW TV (32 cameras, all trackside for now, handing the car round from Hell Corner up the Mountain, over Skyline and back down Conrod), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-10 |
 
 Interlagos:
 
@@ -67,6 +68,12 @@ COTA:
 |---|---|---|
 | ![GOW TV](previews/cota/gow-tv.jpg) GOW TV | ![Gopher cam, turn 1](previews/cota/gopher-turn1.jpg) Gopher cam in the turn 1 inside kerb | ![Gopher cam, turn 1](previews/cota/gopher-turn1-past.jpg) ...as the car sweeps past it |
 | ![Gopher cam, turn 9](previews/cota/gopher-turn9.jpg) Gopher cam in the turn 9 exit kerb | ![Gopher cam, turn 12](previews/cota/gopher-turn12.jpg) Gopher cam in the turn 12 braking zone | ![Gopher cam, turn 20](previews/cota/gopher-turn20.jpg) Gopher cam in the turn 20 braking zone |
+
+Bathurst:
+
+| | | |
+|---|---|---|
+| ![GOW TV](previews/bathurst/gow-tv.jpg) GOW TV over Skyline, into the Esses | | |
 
 ## Cars
 
@@ -113,6 +120,7 @@ Formula Lights, with every round broadcast live. We're recruiting:
 
 ## Changelog
 
+- **2026-11-10**: Mount Panorama (Bathurst).
 - **2026-11-02**: Circuit of the Americas (Grand Prix).
 - **2026-10-26**: Imola (Grand Prix).
 - **2026-10-22**: Miami (Grand Prix).
