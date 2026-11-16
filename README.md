@@ -22,6 +22,9 @@ for a track with one layout) hold iRacing's own cameras, untouched, plus our gro
   track has the spots for them it also has **gopher cams** (a lens in the road on the
   racing line, the car drives straight over it) and **wall cams** (low on a wall the
   cars run close to).
+- **GOW Pit** (where a track has it): tracking cameras down the pit lane, placed where the
+  pit wall and its fence don't hide the cars as they come in close to the wall, and where
+  every stop is seen from the front.
 - **GOW Low Chase**: low behind the car.
 - **GOW Front Low**: low in front, looking back as the car charges at the lens.
 - **GOW Drone**: high behind, following.
@@ -40,6 +43,7 @@ rest stock.
 | Autodromo Enzo e Dino Ferrari (Imola) | Grand Prix | `imola/gp` | GOW TV (22 cameras: 18 trackside and four gophers: in the Tamburello inside kerb, at the bottom of the drop into Acque Minerali, in the Acque Minerali exit kerb and in the Rivazza braking zone at the foot of the hill; no wall cam, as Imola's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-10-26 |
 | Circuit of the Americas | Grand Prix | `cota/gp` | GOW TV (30 cameras: 26 trackside and four gophers: in the turn 1 inside kerb at the top of the hill, in the turn 9 exit kerb, and in the turn 12 and turn 20 braking zones; no wall cam, as COTA's run-off keeps every barrier well away from the cars), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-02 |
 | Mount Panorama Circuit (Bathurst) | One layout | `bathurst` | GOW TV (32 cameras, all trackside for now, handing the car round from Hell Corner up the Mountain, over Skyline and back down Conrod), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-10 |
+| Nürburgring | Grand Prix | `nurburgring/gp` | GOW TV (26 cameras: 22 trackside and four gophers: in the YOKOHAMA-Kurve and AMG Arena kerbs, at the Goodyear-Kehre hairpin apex and in the Veedol-Schikane kerb; no wall cam), GOW Pit (three cameras: high on the pit wall at the entry, at the end of the lane looking back up it, and on the exit road), GOW Low Chase, GOW Front Low, GOW Drone | 2026-11-16 |
 
 Interlagos:
 
@@ -75,6 +79,14 @@ Bathurst:
 |---|---|---|
 | ![GOW TV](previews/bathurst/gow-tv.jpg) GOW TV over Skyline, into the Esses | | |
 
+Nürburgring:
+
+| | | |
+|---|---|---|
+| ![GOW TV](previews/nurburgring/gow-tv.jpg) GOW TV | ![Gopher cam, YOKOHAMA-Kurve](previews/nurburgring/gopher-yokohama-kurve.jpg) Gopher cam in the YOKOHAMA-Kurve kerb | ![Gopher cam, AMG Arena](previews/nurburgring/gopher-amg-arena.jpg) Gopher cam in the AMG Arena exit kerb |
+| ![Gopher cam, Goodyear-Kehre](previews/nurburgring/gopher-goodyear-kehre.jpg) Gopher cam at the Goodyear-Kehre apex | ![Gopher cam, Veedol-Schikane](previews/nurburgring/gopher-veedol-schikane.jpg) Gopher cam in the Veedol-Schikane kerb | ![GOW Pit, entry](previews/nurburgring/pit-entry.jpg) GOW Pit: the pit entry, from high on the pit wall |
+| ![GOW Pit, stop](previews/nurburgring/pit-stop.jpg) GOW Pit: every stop seen from the end of the lane | | |
+
 ## Cars
 
 | Car | Folder | What's changed |
@@ -98,7 +110,8 @@ If an iRacing update changes the format, we'll re-export them here.
 ## Using them on air
 
 For a director or automation: the group names are `GOW TV`, `GOW Low Chase`,
-`GOW Front Low` and `GOW Drone`, and on the car `Nose` (face cam) and `Gyro` (shoulder).
+`GOW Front Low` and `GOW Drone` (plus `GOW Pit` where a track has it: switch to it while
+a car is on pit road), and on the car `Nose` (face cam) and `Gyro` (shoulder).
 Group numbers change when a set is loaded, so look groups up by name in the session's
 `CameraInfo`, never by number. GOW TV hands the car from camera to camera by itself;
 switch to it and leave it.
@@ -120,6 +133,7 @@ Formula Lights, with every round broadcast live. We're recruiting:
 
 ## Changelog
 
+- **2026-11-16**: Nürburgring (Grand Prix), with the first GOW Pit group.
 - **2026-11-10**: Mount Panorama (Bathurst).
 - **2026-11-02**: Circuit of the Americas (Grand Prix).
 - **2026-10-26**: Imola (Grand Prix).
